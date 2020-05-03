@@ -90,7 +90,7 @@ end
   end
   
   def winner
-    if won? && over?
+    if won?
       @board[won?[0]]
     else
       nil
